@@ -13,19 +13,19 @@ export let getFooterLinks = (): FooterLink[] => {
     {
       text: 'Dokumentation',
       icon: 'document-info',
-      url: 'https://doc.elmatic-align.de',
+      url: 'https://doc.elmatic-xenon.de',
       target: '_blank',
     },
     {
       text: 'Support',
       icon: 'question-circle',
-      url: 'https://support.elmatic-align.de',
+      url: 'https://support.elmatic-xenon.de',
       target: '_blank',
     },
     {
       text: 'Elmatic',
       icon: 'comments-alt',
-      url: 'https://www.elmatic.de',
+      url: 'https://www.elmatic.de/wowi/',
       target: '_blank',
     },
   ];
@@ -38,7 +38,7 @@ export let getVersionLinks = (): FooterLink[] => {
   links.push({
     text: `Ausloggen`,
     url:
-      'https://auth.elmatic-align.de/auth/realms/Xenon/protocol/openid-connect/logout?redirect_uri=http%3A%2F%2Fxenon.elmatic-align.de%2Flogin%2Fgeneric_oauth',
+      'https://auth.elmatic-xenon.de/auth/realms/Xenon/protocol/openid-connect/logout?redirect_uri=http%3A%2F%2Fcloud.elmatic-xenon.de%2Flogin%2Fgeneric_oauth',
   });
 
   return links;
